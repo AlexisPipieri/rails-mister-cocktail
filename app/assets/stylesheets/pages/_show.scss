@@ -21,6 +21,12 @@ body {
   h2 {
     font-size: 32px;
   }
+  a {
+    color: rgba(50,50,50,0.6);
+  }
+  a:hover {
+    color: rgb(50,50,50);
+  }
 }
 .ingredients-manager {
   display: flex;
