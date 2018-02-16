@@ -1,0 +1,29 @@
+body {
+  h1 {
+    padding-bottom: 25px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+}
+.ingredients-manager {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ingredients {
+  h2 {
+    padding-bottom: 20px;
+  }
+}
+
+.add-ingredient-form {
+  h2 {
+    padding-bottom: 10px;
+  }
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}

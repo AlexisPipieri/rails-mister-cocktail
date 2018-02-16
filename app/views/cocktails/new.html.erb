@@ -1,0 +1,14 @@
+<div class="wrapper-cocktail-form">
+  <div class="container cocktail-form">
+    <h1>Create your cocktail!</h1>
+
+    <div class="form-wrapper text-center">
+      <%= simple_form_for(@cocktail) do |f| %>
+        <%= f.input :name %>
+        <%= f.button :submit %>
+      <% end %>
+    </div>
+  </div>
+<%= link_to 'Back to menu', cocktails_path, class: "btn-medium"  %>
+</div>
+
