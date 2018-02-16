@@ -1,8 +1,16 @@
+// .banner {
+//   position: relative;
+//   height: 300px;
+//   background-image: linear-gradient(#ff9d2f, #ff6126);
+//   border-bottom-left-radius: 50% 20%;
+//   border-bottom-right-radius: 50% 20%;
+// }
+
 .banner {
   color: white;
   text-align: center;
   // height: calc(66vh - 70px);
-  height: 66vh;
+  height: 400px;
   background-size: cover !important;
   display: flex;
   align-items: center;
@@ -10,10 +18,11 @@
   background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), asset-url('banner.png');
 }
 .banner h1 {
-  padding: 30px;
+  padding: 20px;
   font-size: 66px;
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  font-family: 'Roboto', sans-serif;
 }
 .banner p {
   font-size: 25px;
@@ -22,3 +31,4 @@
   opacity: 0.6;
   margin-bottom: 30px;
 }
+

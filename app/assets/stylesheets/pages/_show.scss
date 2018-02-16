@@ -1,3 +1,19 @@
+.splitter {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  height: 100vh;
+  background-color: white;
+}
+
+#side-image {
+  width: 50vw;
+  background-size: cover;
+  background-image: asset-url('cocktail.png');
+  border-radius: 2px;
+  box-shadow: 10px 10px 5px 0px #f5f5f5;
+}
+
 body {
   h1 {
     padding-bottom: 25px;
@@ -12,6 +28,8 @@ body {
 }
 
 .ingredients {
+  background-color: white;
+  padding: 10px 30px;
   h2 {
     padding-bottom: 20px;
   }
